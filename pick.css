@@ -1,0 +1,42 @@
+ * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border: dashed 1px red;
+}
+
+form#add {
+	display: block;
+	width: 18em;
+	height: 4em;
+	margin: 10px;
+	padding: 5px;
+	border: dotted 1px black;
+}
+
+input[type=text], input[type=textarea] {
+	border: default;
+}
+
+#add label {
+	display: block;
+	width: 6em;
+	float: left;
+	clear: left;
+}
+
+#add input {
+	display: block;
+	width: 12em;
+	float: left;
+}
+
+#add input[type=button] {
+	position: relative;
+	/* padding-right: 0; */
+	right: 2em;
+	margin: 0;
+	width: 5em;
+	float: right;
+	clear: left;
+}

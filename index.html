@@ -2,10 +2,18 @@
 <html>
 	<head>
 		<meta encoding="UTF-8">
+		<script src="jquery-3.1.1.min.js"></script>
 		<script src="pick.js"></script>
 		<link rel="stylesheet" type="text/css" href="pick.css">
 	</head>
 	<body>
-Hello world!
+	<form id="add">
+		<label for="name">Name: </label><input id="name" type="text"></input><br />
+		<label for="value">Percentage: </label><input id="value" type="text"></input><br />
+		<input type='button' onclick="add()" value="Add"></input>
+		<input id="count" type="hidden" value="0"></input>
+	</form>
+	<ul id="options">
+	</ul>
 	</body>
 </html>
